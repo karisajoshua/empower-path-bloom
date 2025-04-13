@@ -14,7 +14,7 @@ const HeroSection = () => {
               Build Your <span className="text-gradient">Clarity</span> & <span className="text-gradient">Confidence</span>
             </h1>
             <p className="text-xl text-gray-300 md:max-w-xl leading-relaxed">
-              Career coaching and personal development to help you discover your path and unleash your full potential.
+              I'm Caroline Kitumbui, a Career and Personal Development Advocate who believes in the power of authenticity. Together, we'll unlock your potential and create the future you deserve.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link to="/contact" className="bg-brand-purple hover:bg-purple-700 text-white font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 group">
