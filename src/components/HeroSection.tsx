@@ -27,11 +27,11 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="lg:w-1/2 flex justify-end">
+          <div className="lg:w-1/2 relative h-full">
             <img 
               src="https://carolinekitumbui.com/wp-content/uploads/2025/01/carol.png" 
               alt="Caroline Kitumbui" 
-              className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-full"
+              className="w-full h-auto object-contain"
             />
           </div>
         </div>
