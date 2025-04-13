@@ -8,38 +8,54 @@ const ServicesSection = () => {
       icon: <Briefcase className="w-12 h-12 text-brand-purple" />,
       title: "Career Essentials Toolkit",
       description: "Strategic guidance to help you navigate your career path, overcome obstacles, and achieve your professional goals with confidence.",
-      price: "$150 / session"
+      price: "$150 / session",
+      details: "Includes resume review, interview preparation, networking strategies, and personalized career planning."
     },
     {
       icon: <Sparkles className="w-12 h-12 text-purple-400" />,
       title: "Personal Growth",
       description: "Discover your unique potential and develop strategies for continuous improvement in all areas of life, from mindset to practical skills.",
-      price: "$180 / session"
+      price: "$180 / session",
+      details: "Focus on mindset development, goal setting, time management, and building self-confidence through practical exercises."
     },
     {
       icon: <Rocket className="w-12 h-12 text-blue-400" />,
       title: "Entrepreneurship & Freelancing",
       description: "Learn essential skills to start and grow your own business or freelance career with confidence and strategic planning.",
-      price: "$200 / session"
+      price: "$200 / session",
+      details: "Business model development, market analysis, financial planning, customer acquisition strategies, and scaling techniques."
     },
     {
       icon: <PenTool className="w-12 h-12 text-pink-400" />,
       title: "Writer's Craft Workshop",
       description: "Develop your writing skills and learn how to create compelling content that resonates with your audience and achieves your goals.",
-      price: "$150 / workshop"
+      price: "$150 / workshop",
+      details: "Storytelling techniques, content strategy, editing processes, publishing options, and building your author platform."
     },
     {
       icon: <FileText className="w-12 h-12 text-indigo-400" />,
       title: "Resume Help",
       description: "Expert review and enhancement of your resume to highlight your achievements and secure more interviews in your desired field.",
-      price: "$120 / resume"
+      price: "$120 / resume",
+      details: "ATS optimization, achievement-focused content development, formatting for maximum impact, and tailoring for specific roles."
     },
     {
       icon: <BarChart className="w-12 h-12 text-green-400" />,
       title: "Career Transition",
       description: "Structured support to help you successfully pivot to a new role, industry, or career path with confidence and strategic planning.",
-      price: "$180 / session"
+      price: "$180 / session",
+      details: "Skills gap analysis, transferable skills identification, industry research, and step-by-step transition planning."
     }
+  ];
+
+  const experience = [
+    "Bachelor's Degree in Business Management-Accounts from Moi University, CPA 4 and pursuing MBA in Strategic Management with special interest in entrepreneurship.",
+    "Diploma in Food and Beverage Management with 2 years of industry experience.",
+    "Administrator at Tewa Training Centre, a hospitality training institution for girls and women.",
+    "Certified trainer by the Germany chambers of commerce, specialized in Entrepreneurship and Communication Skills.",
+    "Completed courses in principles of leadership, effective communication, and strategic management.",
+    "Finance literate with certification in Debt Escape and Mastery.",
+    "Author of 'The Path to Personal Excellence' and Chair Person of SAV Skills Leaders Book Club."
   ];
 
   return (
@@ -60,7 +76,10 @@ const ServicesSection = () => {
             >
               <div className="mb-6">{service.icon}</div>
               <h3 className="text-2xl font-semibold mb-3">{service.title}</h3>
-              <p className="text-gray-400 mb-6 min-h-[6rem]">{service.description}</p>
+              <p className="text-gray-400 mb-4">{service.description}</p>
+              <div className="bg-brand-darker p-4 rounded-lg mb-6">
+                <p className="text-sm text-gray-400">{service.details}</p>
+              </div>
               <p className="text-brand-purple font-semibold mb-4">{service.price}</p>
               <Link 
                 to="/contact" 
@@ -72,35 +91,63 @@ const ServicesSection = () => {
           ))}
         </div>
         
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold mb-6">My <span className="text-gradient">Experience</span></h3>
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold mb-6 text-center">My <span className="text-gradient">Experience</span></h3>
           <div className="bg-brand-darker p-8 rounded-lg max-w-4xl mx-auto">
             <ul className="space-y-4 text-left">
-              <li className="flex items-start">
-                <div className="text-brand-purple mr-3">•</div>
-                <p className="text-gray-300">Bachelor's Degree in Business Management-Accounts from Moi University, CPA 4 and pursuing MBA in Strategic Management with special interest in entrepreneurship.</p>
-              </li>
-              <li className="flex items-start">
-                <div className="text-brand-purple mr-3">•</div>
-                <p className="text-gray-300">Diploma in Food and Beverage Management with 2 years of industry experience.</p>
-              </li>
-              <li className="flex items-start">
-                <div className="text-brand-purple mr-3">•</div>
-                <p className="text-gray-300">Administrator at Tewa Training Centre, a hospitality training institution for girls and women.</p>
-              </li>
-              <li className="flex items-start">
-                <div className="text-brand-purple mr-3">•</div>
-                <p className="text-gray-300">Certified trainer by the Germany chambers of commerce, specialized in Entrepreneurship and Communication Skills.</p>
-              </li>
-              <li className="flex items-start">
-                <div className="text-brand-purple mr-3">•</div>
-                <p className="text-gray-300">Completed courses in principles of leadership, effective communication, and strategic management.</p>
-              </li>
-              <li className="flex items-start">
-                <div className="text-brand-purple mr-3">•</div>
-                <p className="text-gray-300">Finance literate with certification in Debt Escape and Mastery.</p>
-              </li>
+              {experience.map((item, index) => (
+                <li key={index} className="flex items-start">
+                  <div className="text-brand-purple mr-3">•</div>
+                  <p className="text-gray-300">{item}</p>
+                </li>
+              ))}
             </ul>
+          </div>
+        </div>
+        
+        <div className="mt-16 bg-brand-dark/50 p-8 rounded-lg max-w-4xl mx-auto border border-gray-800">
+          <h3 className="text-2xl font-bold mb-6 text-center">Why Choose <span className="text-gradient">My Services</span></h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-brand-darker p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <Lightbulb className="w-8 h-8 text-yellow-400 mr-3" />
+                <h4 className="text-xl font-semibold">Personalized Approach</h4>
+              </div>
+              <p className="text-gray-400">
+                Every coaching session is tailored to your specific goals, challenges, and learning style to ensure maximum effectiveness.
+              </p>
+            </div>
+            
+            <div className="bg-brand-darker p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <BookOpen className="w-8 h-8 text-blue-400 mr-3" />
+                <h4 className="text-xl font-semibold">Research-Based Methods</h4>
+              </div>
+              <p className="text-gray-400">
+                My coaching methodology is grounded in proven principles of personal development and career advancement.
+              </p>
+            </div>
+            
+            <div className="bg-brand-darker p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <Users className="w-8 h-8 text-green-400 mr-3" />
+                <h4 className="text-xl font-semibold">Supportive Community</h4>
+              </div>
+              <p className="text-gray-400">
+                Join a network of like-minded individuals who share your commitment to growth and excellence.
+              </p>
+            </div>
+            
+            <div className="bg-brand-darker p-6 rounded-lg">
+              <div className="flex items-center mb-4">
+                <Sparkles className="w-8 h-8 text-purple-400 mr-3" />
+                <h4 className="text-xl font-semibold">Practical Results</h4>
+              </div>
+              <p className="text-gray-400">
+                Focus on actionable strategies and measurable outcomes that lead to tangible improvements in your life and career.
+              </p>
+            </div>
           </div>
         </div>
       </div>

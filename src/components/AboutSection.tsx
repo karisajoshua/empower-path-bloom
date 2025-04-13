@@ -1,5 +1,5 @@
 
-import { Award, Heart, Target, Users } from 'lucide-react';
+import { Award, Heart, Target, Users, Book, Briefcase, GraduationCap, BookOpen } from 'lucide-react';
 
 const AboutSection = () => {
   const values = [
@@ -44,8 +44,11 @@ const AboutSection = () => {
             <p className="text-gray-300 mb-6 leading-relaxed">
               I choose to share not from a pedestal of perfection but from the trenches of my own experiences—filled with mistakes, lessons learned, and deliberate corrections. Every misstep has been a stepping stone on my journey, shaping the advocate I am today.
             </p>
+            <p className="text-gray-300 mb-6 leading-relaxed">
+              Imagine a world where every person wakes up feeling confident, capable, and ready to conquer their dreams! That's the vision I strive to bring to life—not just for myself, but for everyone in my network. I believe that when we lift each other up, we create a ripple effect of success and resilience.
+            </p>
             <p className="text-gray-300 leading-relaxed">
-              I have authored "The Path to Personal Excellence" and serve as Chair Person of SAV Skills Leaders Book Club, where I continue to grow while helping others develop.
+              I find immense joy in helping individuals unlock their strengths, set meaningful goals, and navigate their personal and professional journeys. Witnessing someone transform, gain confidence, and achieve their aspirations is incredibly fulfilling.
             </p>
             
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
@@ -88,6 +91,43 @@ const AboutSection = () => {
                     <p className="text-gray-400 text-sm">{value.description}</p>
                   </div>
                 ))}
+              </div>
+            </div>
+
+            <div className="pt-8">
+              <h3 className="text-2xl font-bold mb-6">My <span className="text-gradient">Education & Certifications</span></h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-4 bg-brand-darker p-5 rounded-lg">
+                  <GraduationCap className="w-6 h-6 text-brand-purple mt-1" />
+                  <div>
+                    <h4 className="font-semibold">Bachelor's Degree in Business Management-Accounts</h4>
+                    <p className="text-gray-400 text-sm">Moi University, CPA 4</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4 bg-brand-darker p-5 rounded-lg">
+                  <GraduationCap className="w-6 h-6 text-brand-purple mt-1" />
+                  <div>
+                    <h4 className="font-semibold">MBA in Strategic Management</h4>
+                    <p className="text-gray-400 text-sm">Currently pursuing with special interest in entrepreneurship</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4 bg-brand-darker p-5 rounded-lg">
+                  <Briefcase className="w-6 h-6 text-brand-purple mt-1" />
+                  <div>
+                    <h4 className="font-semibold">Certified Trainer</h4>
+                    <p className="text-gray-400 text-sm">Germany Chambers of Commerce, specialized in Entrepreneurship and Communication Skills</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4 bg-brand-darker p-5 rounded-lg">
+                  <BookOpen className="w-6 h-6 text-brand-purple mt-1" />
+                  <div>
+                    <h4 className="font-semibold">Chair Person</h4>
+                    <p className="text-gray-400 text-sm">SAV Skills Leaders Book Club</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

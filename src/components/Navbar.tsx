@@ -37,7 +37,7 @@ const Navbar = () => {
             <img 
               src="https://carolinekitumbui.com/wp-content/uploads/2024/11/cropped-carol-removebg-preview.png" 
               alt="Caroline Kitumbui Logo" 
-              className="h-12 w-auto"
+              className="h-20 md:h-32 w-auto"
             />
           </Link>
 

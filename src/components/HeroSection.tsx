@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-b from-brand-dark to-brand-darker flex items-center pt-16">
+    <section className="relative min-h-screen bg-gradient-to-b from-brand-dark to-brand-darker flex items-center pt-20 md:pt-32">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1470&auto=format&fit=crop')] bg-cover bg-center opacity-5"></div>
       
       <div className="container mx-auto px-4 z-10">
@@ -27,15 +27,12 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="lg:w-1/2 flex justify-center">
-            <div className="relative">
-              <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-brand-purple to-purple-500 opacity-70 blur-lg"></div>
-              <img 
-                src="https://carolinekitumbui.com/wp-content/uploads/2025/01/carol.png" 
-                alt="Caroline Kitumbui" 
-                className="relative rounded-full w-64 h-64 sm:w-80 sm:h-80 object-cover border-4 border-brand-purple/30"
-              />
-            </div>
+          <div className="lg:w-1/2 flex justify-end">
+            <img 
+              src="https://carolinekitumbui.com/wp-content/uploads/2025/01/carol.png" 
+              alt="Caroline Kitumbui" 
+              className="w-64 h-64 sm:w-80 sm:h-80 object-cover rounded-full"
+            />
           </div>
         </div>
       </div>
