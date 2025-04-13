@@ -84,11 +84,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={20} className="text-brand-purple mr-3 flex-shrink-0 mt-1" />
-                <span className="text-gray-400">123 Career Avenue, Success City, CA 90210</span>
+                <span className="text-gray-400">Mombasa, Kenya</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-brand-purple mr-3 flex-shrink-0" />
-                <span className="text-gray-400">(555) 123-4567</span>
+                <span className="text-gray-400">+254716668668</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-brand-purple mr-3 flex-shrink-0" />
@@ -103,7 +103,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} Caroline Kitumbui. All rights reserved.
+              &copy; Copyright Caroline Kitumbui {currentYear} | Powered by Texcortech Systems
             </p>
             <div className="flex space-x-6">
               <Link to="/" className="text-gray-500 hover:text-white text-sm transition-colors">Privacy Policy</Link>

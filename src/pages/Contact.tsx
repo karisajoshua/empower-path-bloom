@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import { toast } from 'sonner';
@@ -73,8 +72,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Address</h3>
                       <p className="text-gray-400">
-                        123 Career Avenue<br />
-                        Success City, CA 90210
+                        Mombasa, Kenya
                       </p>
                     </div>
                   </div>
@@ -96,8 +94,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
                       <p className="text-gray-400">
-                        <a href="tel:+15551234567" className="hover:text-white transition-colors">
-                          (555) 123-4567
+                        <a href="tel:+254716668668" className="hover:text-white transition-colors">
+                          +254716668668
                         </a>
                       </p>
                     </div>

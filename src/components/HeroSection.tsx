@@ -27,7 +27,7 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="lg:w-1/2 relative h-full">
+          <div className="lg:w-1/2 relative">
             <img 
               src="https://carolinekitumbui.com/wp-content/uploads/2025/01/carol.png" 
               alt="Caroline Kitumbui" 

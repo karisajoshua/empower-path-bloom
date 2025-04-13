@@ -22,8 +22,8 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/#about' },
-    { name: 'Services', path: '/#services' },
+    { name: 'About', path: '/about' },
+    { name: 'Services', path: '/services' },
     { name: 'Blog', path: '/blog' },
     { name: 'Testimonials', path: '/#testimonials' },
     { name: 'Contact', path: '/contact' },
@@ -37,7 +37,7 @@ const Navbar = () => {
             <img 
               src="https://carolinekitumbui.com/wp-content/uploads/2024/11/cropped-carol-removebg-preview.png" 
               alt="Caroline Kitumbui Logo" 
-              className="h-24 w-auto"
+              className="h-30 w-auto"
             />
           </Link>
 
