@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Instagram, Linkedin, Twitter, Mail, MapPin, Phone } from 'lucide-react';
 
@@ -9,11 +8,10 @@ const Footer = () => {
     <footer className="bg-brand-darker pt-16 pb-8 border-t border-gray-800">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-          {/* Brand Column */}
           <div>
             <Link to="/" className="inline-block mb-6">
               <img 
-                src="/placeholder.svg" 
+                src="https://carolinekitumbui.com/wp-content/uploads/2024/11/cropped-carol-removebg-preview.png" 
                 alt="Caroline Kitumbui Logo" 
                 className="h-12"
               />
@@ -34,7 +32,6 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Quick Links */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
@@ -56,7 +53,6 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Services */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Services</h4>
             <ul className="space-y-3">
@@ -78,7 +74,6 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-6">Contact</h4>
             <ul className="space-y-4">
