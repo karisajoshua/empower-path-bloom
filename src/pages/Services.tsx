@@ -1,4 +1,3 @@
-
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ServicesSection from '../components/ServicesSection';
@@ -47,9 +46,6 @@ const Services = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">My <span className="text-gradient">Services</span></h1>
-              <p className="text-xl text-gray-300 leading-relaxed">
-                Unlock your potential with expert guidance in career growth, personal development, and strategic communication. Let's build the future you deserve, one step at a time.
-              </p>
             </div>
           </div>
         </section>
