@@ -14,14 +14,14 @@ const HeroSection = () => {
               Build Your <span className="text-gradient">Clarity</span> & <span className="text-gradient">Confidence</span>
             </h1>
             <p className="text-xl text-gray-300 md:max-w-xl leading-relaxed">
-              I'm Caroline Kitumbui, a Career and Personal Development Advocate who believes in the power of authenticity. Together, we'll unlock your potential and create the future you deserve.
+              Transform your career and personal growth with expert guidance. Let's create the future you deserve.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link to="/contact" className="bg-brand-purple hover:bg-purple-700 text-white font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 group">
                 Book a Session
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link to="/#about" className="bg-transparent hover:bg-white/10 text-white border border-white/20 font-medium px-8 py-3 rounded-full transition-all duration-300">
+              <Link to="/about" className="bg-transparent hover:bg-white/10 text-white border border-white/20 font-medium px-8 py-3 rounded-full transition-all duration-300">
                 Learn More
               </Link>
             </div>
