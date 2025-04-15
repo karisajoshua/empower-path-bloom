@@ -35,9 +35,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="https://carolinekitumbui.com/wp-content/uploads/2024/11/cropped-carol-removebg-preview.png" 
+              src="/placeholder.svg" 
               alt="Caroline Kitumbui Logo" 
-              className="h-16 w-auto"  // Reduced from h-30 to h-16
+              className="h-16 w-auto"
             />
           </Link>
 

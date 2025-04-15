@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block mb-6">
               <img 
-                src="https://carolinekitumbui.com/wp-content/uploads/2024/11/cropped-carol-removebg-preview.png" 
+                src="/placeholder.svg" 
                 alt="Caroline Kitumbui Logo" 
                 className="h-12"
               />
