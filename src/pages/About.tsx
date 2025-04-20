@@ -6,13 +6,6 @@ import { Award, Book, BookOpen, GraduationCap, Heart, Target, Users } from 'luci
 import { Link } from 'react-router-dom';
 
 const About = () => {
-  const achievements = [
-    { value: "5+", label: "Years Experience" },
-    { value: "1,000+", label: "Books Read" },
-    { value: "2+", label: "Books Authored" },
-    { value: "500+", label: "Lives Changed" }
-  ];
-
   return (
     <>
       <Navbar />
@@ -59,7 +52,7 @@ const About = () => {
                     As an avid reader of self-help literature, I'm constantly seeking new insights to enrich my journey and inspire others. Through the vibrant discussions at the SAV Skills Leaders Book Club, I've had the incredible opportunity to interact with diverse voices and perspectives.
                   </p>
                   <p className="text-gray-300 leading-relaxed">
-                    I've authored "The Path to Personal Excellence-Steps to a Better You" out of the desire to fulfill my mission and vision. I'm also the Chair Person of SAV Skills Leaders Book Club, creating opportunities for growth and development.
+                    I've authored "The Path to Personal Excellence-Steps to a Better You" and "The Path to Reinvention" out of the desire to fulfill my mission and vision. I'm also the Book Club Officer at SAV Skills Leaders Book Club, creating opportunities for growth and development.
                   </p>
                 </div>
                 
@@ -74,43 +67,6 @@ const About = () => {
                   <p className="text-gray-300 leading-relaxed">
                     I believe that when we lift each other up, we create a ripple effect of success and resilience. I find immense joy in helping individuals unlock their strengths, set meaningful goals, and navigate their personal and professional journeys.
                   </p>
-                </div>
-              </div>
-              
-              <div className="text-center mb-16">
-                <h2 className="text-3xl font-bold mb-8">My <span className="text-gradient">Achievements</span></h2>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                  {achievements.map((item, index) => (
-                    <div key={index} className="bg-brand-darker p-6 rounded-lg shadow-lg hover:shadow-brand-purple/20 transition-all">
-                      <div className="text-3xl font-bold text-brand-purple mb-2">{item.value}</div>
-                      <div className="text-gray-400">{item.label}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-              
-              <div className="bg-brand-darker p-8 rounded-lg shadow-lg mb-10">
-                <div className="flex items-center mb-6">
-                  <Heart className="w-10 h-10 text-pink-400 mr-4" />
-                  <h2 className="text-3xl font-bold">My <span className="text-gradient">Core Values</span></h2>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div className="bg-brand-dark p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Empowerment</h3>
-                    <p className="text-gray-400">Helping you gain the confidence to take decisive action in your life and career.</p>
-                  </div>
-                  <div className="bg-brand-dark p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Growth</h3>
-                    <p className="text-gray-400">Encouraging transformation through challenges and new opportunities.</p>
-                  </div>
-                  <div className="bg-brand-dark p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Community</h3>
-                    <p className="text-gray-400">Creating a supportive network where growth and success is shared with others.</p>
-                  </div>
-                  <div className="bg-brand-dark p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2">Authenticity</h3>
-                    <p className="text-gray-400">Championing genuineness as the cornerstone of achievement and personal fulfillment.</p>
-                  </div>
                 </div>
               </div>
               
