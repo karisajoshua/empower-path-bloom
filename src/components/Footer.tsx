@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block mb-6">
               <img 
-                src="https://carolinekitumbui.com/wp-content/uploads/2024/11/cropped-carol-removebg-preview.png" 
+                src="https://mcxyewupdzxikmzifqtr.supabase.co/storage/v1/object/public/ckc//Screen%20Shot%202025-04-20%20at%2010.25.52.png" 
                 alt="Caroline Kitumbui Logo" 
                 className="h-12"
               />

@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -35,13 +34,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="https://carolinekitumbui.com/wp-content/uploads/2024/11/cropped-carol-removebg-preview.png" 
+              src="https://mcxyewupdzxikmzifqtr.supabase.co/storage/v1/object/public/ckc//Screen%20Shot%202025-04-20%20at%2010.25.52.png" 
               alt="Caroline Kitumbui Logo" 
               className="h-16 w-auto"
             />
           </Link>
 
-          {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <Link
@@ -54,12 +52,10 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Book a Session Button */}
           <Link to="/contact" className="hidden md:block bg-brand-purple hover:bg-purple-700 text-white font-medium px-6 py-2 rounded-full transition-colors duration-300">
             Book a Session
           </Link>
 
-          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-white"
@@ -68,7 +64,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 bg-brand-dark shadow-xl p-4 animate-fade-in">
             <div className="flex flex-col space-y-4">
