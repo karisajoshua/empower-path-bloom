@@ -1,4 +1,3 @@
-
 import { Award, Heart, Target, Users, Book, Briefcase, GraduationCap, BookOpen } from 'lucide-react';
 
 const AboutSection = () => {
@@ -30,6 +29,16 @@ const AboutSection = () => {
     { number: "1,000+", label: "Books Read" },
     { number: "2+", label: "Books Authored" },
     { number: "500+", label: "Lives Changed" },
+  ];
+
+  const experience = [
+    "Bachelor's Degree in Business Management-Accounts from Moi University, CPA 4 and pursuing MBA in Strategic Management with special interest in entrepreneurship.",
+    "Diploma in Food and Beverage Management with 2 years of industry experience.",
+    "Administrator at Tewa Training Centre, a hospitality training institution for girls and women.",
+    "Certified trainer by the Germany chambers of commerce, with special interest in Entrepreneurship and Communication Skills.",
+    "Completed courses in principles of leadership, effective communication, and strategic management with Great Learning",
+    "Finance literate with certification in Debt Escape and Mastery Money Mastery",
+    "Author of 'The Path to Personal Excellence' & The Path to reinvention and the book club officer-SAV Skills Leaders Book Club."
   ];
 
   return (
@@ -117,14 +126,14 @@ const AboutSection = () => {
                   <Briefcase className="w-6 h-6 text-brand-purple mt-1" />
                   <div>
                     <h4 className="font-semibold">Certified Trainer</h4>
-                    <p className="text-gray-400 text-sm">Germany Chambers of Commerce, specialized in Entrepreneurship and Communication Skills</p>
+                    <p className="text-gray-400 text-sm">Germany Chambers of Commerce, with special interest in Entrepreneurship and Communication Skills</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4 bg-brand-darker p-5 rounded-lg">
                   <BookOpen className="w-6 h-6 text-brand-purple mt-1" />
                   <div>
-                    <h4 className="font-semibold">Chair Person</h4>
+                    <h4 className="font-semibold">Book club officer</h4>
                     <p className="text-gray-400 text-sm">SAV Skills Leaders Book Club</p>
                   </div>
                 </div>

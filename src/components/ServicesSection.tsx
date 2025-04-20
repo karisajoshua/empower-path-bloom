@@ -1,4 +1,3 @@
-
 import { ArrowRight, BarChart, FileText, Briefcase, Users, Sparkles, Lightbulb, BookOpen, Rocket, PenTool } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -7,38 +6,20 @@ const ServicesSection = () => {
     {
       icon: <Briefcase className="w-12 h-12 text-brand-purple" />,
       title: "Career Essentials Toolkit",
-      description: "Strategic guidance to help you navigate your career path, overcome obstacles, and achieve your professional goals with confidence.",
-      details: "Includes resume review, interview preparation, networking strategies, and personalized career planning."
+      description: "Get noticed. Get hired. Get moving. This toolkit is designed to help you show up confidently and professionally in today's job market.",
+      details: "✅ CV Revamping – Turn your CV into a powerful, professional brand statement\n✅ Cover Letter Writing – Tailored letters that speak directly to employers\n✅ Job Application Guide – Step-by-step tips to apply smart, not just hard\n✅ LinkedIn & Job Platform Optimization – Position your profile to attract the right opportunities"
     },
     {
-      icon: <Sparkles className="w-12 h-12 text-purple-400" />,
-      title: "Personal Growth",
-      description: "Discover your unique potential and develop strategies for continuous improvement in all areas of life, from mindset to practical skills.",
-      details: "Focus on mindset development, goal setting, time management, and building self-confidence through practical exercises."
-    },
-    {
-      icon: <Rocket className="w-12 h-12 text-blue-400" />,
-      title: "Entrepreneurship & Freelancing",
-      description: "Learn essential skills to start and grow your own business or freelance career with confidence and strategic planning.",
-      details: "Business model development, market analysis, financial planning, customer acquisition strategies, and scaling techniques."
+      icon: <FileText className="w-12 h-12 text-indigo-400" />,
+      title: "Strategic Communication Essentials",
+      description: "Say the right thing, the right way—every time. Whether you're speaking for yourself or your brand, how you communicate matters.",
+      details: "✅ Personal Profile – A sharp, professional bio that highlights your value\n✅ Company Profile – A well-crafted business story that opens doors\n✅ Elevator Pitch – A clear and compelling intro for any room or opportunity\n\n✔️Strategic ✔️Clear ✔️Unforgettable"
     },
     {
       icon: <PenTool className="w-12 h-12 text-pink-400" />,
       title: "Writer's Craft Workshop",
-      description: "Develop your writing skills and learn how to create compelling content that resonates with your audience and achieves your goals.",
-      details: "Storytelling techniques, content strategy, editing processes, publishing options, and building your author platform."
-    },
-    {
-      icon: <FileText className="w-12 h-12 text-indigo-400" />,
-      title: "Resume Help",
-      description: "Expert review and enhancement of your resume to highlight your achievements and secure more interviews in your desired field.",
-      details: "ATS optimization, achievement-focused content development, formatting for maximum impact, and tailoring for specific roles."
-    },
-    {
-      icon: <BarChart className="w-12 h-12 text-green-400" />,
-      title: "Career Transition",
-      description: "Structured support to help you successfully pivot to a new role, industry, or career path with confidence and strategic planning.",
-      details: "Skills gap analysis, transferable skills identification, industry research, and step-by-step transition planning."
+      description: "Your self-help, motivational, or inspirational book—written for you. You bring the story or idea. I bring the words.",
+      details: "✅ Content development & chapter outline\n✅ Full manuscript writing\n✅ Revisions & polish for publishing\n\nYour message. My pen. One powerful book.🔥"
     }
   ];
 
@@ -46,10 +27,10 @@ const ServicesSection = () => {
     "Bachelor's Degree in Business Management-Accounts from Moi University, CPA 4 and pursuing MBA in Strategic Management with special interest in entrepreneurship.",
     "Diploma in Food and Beverage Management with 2 years of industry experience.",
     "Administrator at Tewa Training Centre, a hospitality training institution for girls and women.",
-    "Certified trainer by the Germany chambers of commerce, specialized in Entrepreneurship and Communication Skills.",
-    "Completed courses in principles of leadership, effective communication, and strategic management.",
-    "Finance literate with certification in Debt Escape and Mastery.",
-    "Author of 'The Path to Personal Excellence' and Chair Person of SAV Skills Leaders Book Club."
+    "Certified trainer by the Germany chambers of commerce, with special interest in Entrepreneurship and Communication Skills.",
+    "Completed courses in principles of leadership, effective communication, and strategic management with Great Learning",
+    "Finance literate with certification in Debt Escape and Mastery Money Mastery",
+    "Author of 'The Path to Personal Excellence' & The Path to reinvention and the book club officer-SAV Skills Leaders Book Club."
   ];
 
   return (
@@ -71,7 +52,7 @@ const ServicesSection = () => {
               <div className="mb-6">{service.icon}</div>
               <h3 className="text-2xl font-semibold mb-3">{service.title}</h3>
               <p className="text-gray-400 mb-4">{service.description}</p>
-              <div className="bg-brand-darker p-4 rounded-lg mb-6">
+              <div className="bg-brand-darker p-4 rounded-lg mb-6 whitespace-pre-line">
                 <p className="text-sm text-gray-400">{service.details}</p>
               </div>
               <Link 
