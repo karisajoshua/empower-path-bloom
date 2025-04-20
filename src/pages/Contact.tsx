@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import { toast } from 'sonner';
+import { supabase } from '@/integrations/supabase/client';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -23,7 +24,7 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Simple validation
@@ -34,9 +35,14 @@ const Contact = () => {
     
     setIsLoading(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      toast.success('Thank you for your message! I will get back to you soon.');
+    try {
+      const { error } = await supabase.functions.invoke('send-contact-form', {
+        body: formData
+      });
+
+      if (error) throw error;
+
+      toast.success('Thank you for your message! We will get back to you soon.');
       setFormData({
         name: '',
         email: '',
@@ -44,8 +50,12 @@ const Contact = () => {
         subject: '',
         message: '',
       });
+    } catch (error) {
+      console.error('Error sending message:', error);
+      toast.error('Sorry, there was an error sending your message. Please try again.');
+    } finally {
       setIsLoading(false);
-    }, 1500);
+    }
   };
 
   return (
