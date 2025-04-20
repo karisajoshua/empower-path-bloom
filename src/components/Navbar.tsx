@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="https://mcxyewupdzxikmzifqtr.supabase.co/storage/v1/object/public/ckc//Screen%20Shot%202025-04-20%20at%2010.25.52.png" 
+              src="https://mcxyewupdzxikmzifqtr.supabase.co/storage/v1/object/public/ckc//logo.png" 
               alt="Caroline Kitumbui Logo" 
               className="h-16 w-auto"
             />
