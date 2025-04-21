@@ -7,7 +7,7 @@ const ServicesSection = () => {
       icon: <Briefcase className="w-12 h-12 text-brand-purple" />,
       title: "Career Essentials Toolkit",
       description: "Get noticed. Get hired. Get moving. This toolkit is designed to help you show up confidently and professionally in today's job market.",
-      details: "✅ CV Revamping – Turn your CV into a powerful, professional brand statement\n✅ Cover Letter Writing – Tailored letters that speak directly to employers\n✅ Job Application Guide – Step-by-step tips to apply smart, not just hard\n✅ LinkedIn & Job Platform Optimization – Position your profile to attract the right opportunities"
+      details: "✅ CV Revamping – Turn your CV into a powerful, professional brand statement\n✅ Cover Letter Writing – Tailored letters that speak directly to employers\n✅ Job Application Guide – Step-by-step tips to apply smart, not just hard\n✅ LinkedIn & Platform Optimization – Position your profile to attract the right opportunities"
     },
     {
       icon: <FileText className="w-12 h-12 text-indigo-400" />,
@@ -30,7 +30,7 @@ const ServicesSection = () => {
     "Certified trainer by the Germany chambers of commerce, with special interest in Entrepreneurship and Communication Skills.",
     "Completed courses in principles of leadership, effective communication, and strategic management with Great Learning",
     "Finance literate with certification in Debt Escape and Mastery Money Mastery",
-    "Author of 'The Path to Personal Excellence' & The Path to reinvention and the book club officer-SAV Skills Leaders Book Club."
+    "Author of 'The Path to Personal Excellence' & The Path to Reinvention and the book club officer-SAV Skills Leaders Book Club."
   ];
 
   return (
