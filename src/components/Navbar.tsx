@@ -8,13 +8,8 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 50);
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -23,13 +18,11 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Testimonials', path: '/#testimonials' },
     { name: 'Contact', path: '/contact' },
   ];
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-brand-dark/95 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/95 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
@@ -52,7 +45,7 @@ const Navbar = () => {
             ))}
           </div>
 
-          <Link to="/contact" className="hidden md:block bg-brand-purple hover:bg-purple-700 text-white font-medium px-6 py-2 rounded-full transition-colors duration-300">
+          <Link to="/contact" className="hidden md:block bg-white text-black font-medium px-6 py-2 rounded-full transition-colors duration-300 hover:bg-gray-200">
             Book a Session
           </Link>
 
@@ -65,7 +58,7 @@ const Navbar = () => {
         </div>
 
         {isOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-brand-dark shadow-xl p-4 animate-fade-in">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-black shadow-xl p-4 animate-fade-in">
             <div className="flex flex-col space-y-4">
               {navItems.map((item) => (
                 <Link
@@ -79,7 +72,7 @@ const Navbar = () => {
               ))}
               <Link 
                 to="/contact" 
-                className="bg-brand-purple hover:bg-purple-700 text-white font-medium py-2 px-4 rounded-full text-center transition-colors duration-300"
+                className="bg-white text-black font-medium py-2 px-4 rounded-full text-center transition-colors duration-300 hover:bg-gray-200"
                 onClick={() => setIsOpen(false)}
               >
                 Book a Session
