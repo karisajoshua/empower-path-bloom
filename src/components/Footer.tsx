@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-brand-darker pt-16 pb-8 border-t border-gray-800">
+    <footer className="bg-black pt-16 pb-8 border-t border-white/10">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
@@ -17,7 +17,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-gray-400 mb-6">
-              Empowering individuals to build clarity, confidence, and achieve professional success through personalized coaching.
+              Empowering individuals to grow intentionally through career development, personal growth, and structured mentorship.
             </p>
             <div className="flex space-x-4">
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
@@ -33,60 +33,39 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-6 text-white">Quick Links</h4>
             <ul className="space-y-3">
-              <li>
-                <Link to="/#about" className="text-gray-400 hover:text-white transition-colors">About</Link>
-              </li>
-              <li>
-                <Link to="/#services" className="text-gray-400 hover:text-white transition-colors">Services</Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</Link>
-              </li>
-              <li>
-                <Link to="/#testimonials" className="text-gray-400 hover:text-white transition-colors">Testimonials</Link>
-              </li>
-              <li>
-                <Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link>
-              </li>
+              <li><Link to="/" className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
+              <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About</Link></li>
+              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Services</Link></li>
+              <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-6">Services</h4>
+            <h4 className="text-lg font-semibold mb-6 text-white">Services</h4>
             <ul className="space-y-3">
-              <li>
-                <Link to="/#services" className="text-gray-400 hover:text-white transition-colors">Career Coaching</Link>
-              </li>
-              <li>
-                <Link to="/#services" className="text-gray-400 hover:text-white transition-colors">Personal Branding</Link>
-              </li>
-              <li>
-                <Link to="/#services" className="text-gray-400 hover:text-white transition-colors">Resume Help</Link>
-              </li>
-              <li>
-                <Link to="/#services" className="text-gray-400 hover:text-white transition-colors">Interview Preparation</Link>
-              </li>
-              <li>
-                <Link to="/#services" className="text-gray-400 hover:text-white transition-colors">Leadership Development</Link>
-              </li>
+              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Career Development</Link></li>
+              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Youth Mentorship</Link></li>
+              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Entrepreneurship Guidance</Link></li>
+              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Author Mentorship</Link></li>
+              <li><Link to="/services" className="text-gray-400 hover:text-white transition-colors">Carol's Book Bar</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-6">Contact</h4>
+            <h4 className="text-lg font-semibold mb-6 text-white">Contact</h4>
             <ul className="space-y-4">
               <li className="flex items-start">
-                <MapPin size={20} className="text-brand-purple mr-3 flex-shrink-0 mt-1" />
+                <MapPin size={20} className="text-white mr-3 flex-shrink-0 mt-1" />
                 <span className="text-gray-400">Mombasa, Kenya</span>
               </li>
               <li className="flex items-center">
-                <Phone size={20} className="text-brand-purple mr-3 flex-shrink-0" />
+                <Phone size={20} className="text-white mr-3 flex-shrink-0" />
                 <span className="text-gray-400">+254716668668</span>
               </li>
               <li className="flex items-center">
-                <Mail size={20} className="text-brand-purple mr-3 flex-shrink-0" />
+                <Mail size={20} className="text-white mr-3 flex-shrink-0" />
                 <a href="mailto:info@carolinekitumbui.com" className="text-gray-400 hover:text-white transition-colors">
                   info@carolinekitumbui.com
                 </a>
@@ -95,7 +74,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-white/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 md:mb-0">
               &copy; Copyright Caroline Kitumbui {currentYear} | Powered by Texcortech Systems

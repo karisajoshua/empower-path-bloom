@@ -63,10 +63,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				brand: {
-					purple: '#591f8e',
-					dark: '#121212',
-					darker: '#0A0A0A',
+			brand: {
+					accent: '#ffffff',
+					dark: '#0a0a0a',
+					darker: '#050505',
 					light: '#f5f5f7'
 				}
 			},
