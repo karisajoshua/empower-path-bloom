@@ -160,9 +160,11 @@ const About = () => {
 
             <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4 text-white">Fun Fact</h3>
-              <p className="text-gray-300 leading-relaxed">
-                I am an opportunistic entrepreneur 😄 — I love spotting opportunities and turning ideas into reality. I am lovey-dovey 😅 — a little tip to my future husband 😉. What I don't like doing… that's reserved for my future husband 😄
-              </p>
+              <ul className="space-y-3 text-gray-300 leading-relaxed">
+                <li className="flex items-start"><span className="text-white mr-3">•</span>I am an opportunistic entrepreneur 😄 — I love spotting opportunities and turning ideas into reality.</li>
+                <li className="flex items-start"><span className="text-white mr-3">•</span>I am lovey-dovey 😅 — a little tip to my future husband 😉</li>
+                <li className="flex items-start"><span className="text-white mr-3">•</span>What I don't like doing… that's reserved for my future husband 😄</li>
+              </ul>
             </div>
           </div>
         </section>
