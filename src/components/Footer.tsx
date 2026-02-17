@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Instagram, Linkedin, Twitter, Mail, MapPin, Phone } from 'lucide-react';
+import { Instagram, Linkedin, Twitter, Mail, MapPin, Phone, Youtube, Facebook } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -20,14 +20,17 @@ const Footer = () => {
               Empowering individuals to grow intentionally through career development, personal growth, and structured mentorship.
             </p>
             <div className="flex space-x-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.youtube.com/@carolk3596" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <Youtube size={20} />
+              </a>
+              <a href="https://www.threads.com/@carolinekitumbui" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Linkedin size={20} />
+              <a href="https://www.tiktok.com/@carolinekitumbui" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
-                <Twitter size={20} />
+              <a href="https://www.facebook.com/profile.php?id=100074840381878" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+                <Facebook size={20} />
               </a>
             </div>
           </div>
