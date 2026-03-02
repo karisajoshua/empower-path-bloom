@@ -43,14 +43,14 @@ const About = () => {
         <section className="py-20 border-b border-white/10">
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-3xl font-bold mb-8 text-white">About Me</h2>
-            <div className="flex flex-col md:flex-row gap-10 items-start">
+            <div className="flex flex-col md:flex-row gap-10 items-stretch">
               {/* Image with dark blend */}
-              <div className="relative w-64 md:w-80 flex-shrink-0 mx-auto md:mx-0">
-                <div className="relative overflow-hidden rounded-lg">
+              <div className="relative w-full md:w-[340px] flex-shrink-0 mx-auto md:mx-0">
+                <div className="relative overflow-hidden rounded-lg h-full">
                   <img
                     src={carolImage}
                     alt="Caroline Kitumbui"
-                    className="w-full h-auto object-cover"
+                    className="w-full h-full object-cover"
                   />
                   {/* Gradient overlays for seamless dark blend */}
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black" />
@@ -59,12 +59,17 @@ const About = () => {
                 </div>
               </div>
               {/* Text */}
-              <div className="space-y-6 text-gray-300 leading-relaxed flex-1">
+              <div className="flex-1 space-y-5 text-gray-300 leading-relaxed">
                 <p>I am a career and personal development advocate, author, and community builder with a special interest in entrepreneurship. My experience in academia and program coordination has shaped my ability to design structured guidance, support young professionals, and cultivate purposeful growth.</p>
+
                 <p><strong className="text-white">Sky My Limit</strong> was born out of my passion to empower young people and professionals by providing structured mentorship, career guidance, personal branding support, mindset growth initiatives, and entrepreneurship insights. Since 2019, I have guided several cohorts in developing business plans and viable business ideas that meet professional and national standards (KNEC).</p>
+
                 <p>I am skilled in developing schemes of work, lesson plans, and records of work, ensuring all my training and mentorship sessions are structured, resourceful, and impactful.</p>
+
                 <p>As Book Club Officer at <strong className="text-white">SAV Skills Leaders Book Club</strong>, I promote reading, reflection, and intellectual engagement. I am also a published author, supporting aspiring writers in developing manuscripts, combining practical mentorship with thought leadership.</p>
+
                 <p>I am also the Founder of <strong className="text-white">Carol's Book Bar</strong>, born out of my desire to cultivate a reading culture, bring resources closer to people, and help them understand the transformative benefits of reading. Through this initiative, I curate and sell self-help, leadership, and children's books, provide reading recommendations, and foster intentional engagement with literature as a tool for personal and professional growth.</p>
+
                 <p className="italic text-gray-400">Everything I do is grounded in authenticity, intentional growth, and empowerment through structure.</p>
               </div>
             </div>
