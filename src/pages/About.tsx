@@ -41,7 +41,7 @@ const About = () => {
 
         {/* About Me */}
         <section className="py-20 border-b border-white/10">
-          <div className="container mx-auto px-4 max-w-4xl">
+            <div className="container mx-auto px-4 max-w-6xl">
             <h2 className="text-3xl font-bold mb-8 text-white">About Me</h2>
             <div className="flex flex-col md:flex-row gap-10 items-stretch">
               {/* Image with dark blend */}
