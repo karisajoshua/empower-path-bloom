@@ -45,7 +45,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-8 text-white">About Me</h2>
             <div className="flex flex-col md:flex-row gap-10 items-stretch">
               {/* Image with dark blend */}
-              <div className="relative w-full md:w-[340px] flex-shrink-0 mx-auto md:mx-0">
+              <div className="relative w-full md:w-[420px] lg:w-[480px] flex-shrink-0 mx-auto md:mx-0">
                 <div className="relative overflow-hidden rounded-lg h-full">
                   <img
                     src={carolImage}
