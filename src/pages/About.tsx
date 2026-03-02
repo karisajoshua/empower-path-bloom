@@ -2,7 +2,7 @@
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { GraduationCap, Target, Shield, Heart, Sparkles, Award, BookOpen, Users } from 'lucide-react';
-import carolImage from '@/assets/carol.jpeg';
+import carolImage from '@/assets/carol-nobg.png';
 import { Link } from 'react-router-dom';
 
 const About = () => {
