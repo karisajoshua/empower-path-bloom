@@ -35,7 +35,7 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <p className="text-gray-300 text-lg leading-relaxed">
-                I am the founder of <strong className="text-white">Sky My Limit</strong>, <strong className="text-white">Carol's Book Bar</strong> and I serve as Book Club Officer at <strong className="text-white">SAV Skills Leaders Book Club</strong>. I support individuals in creating opportunities, building businesses, navigating freelancing, and developing viable business ideas and plans.
+                I am the founder of <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:underline">Sky My Limit</a>, <strong className="text-white">Carol's Book Bar</strong> and I serve as Book Club Officer at <strong className="text-white">SAV Skills Leaders Book Club</strong>. I support individuals in creating opportunities, building businesses, navigating freelancing, and developing viable business ideas and plans.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

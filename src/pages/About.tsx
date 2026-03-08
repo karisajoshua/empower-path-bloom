@@ -62,7 +62,7 @@ const About = () => {
               <div className="flex-1 space-y-5 text-gray-300 leading-relaxed">
                 <p>I am a career and personal development advocate, author, and community builder with a special interest in entrepreneurship. My experience in academia and program coordination has shaped my ability to design structured guidance, support young professionals, and cultivate purposeful growth.</p>
 
-                <p><strong className="text-white">Sky My Limit</strong> was born out of my passion to empower young people and professionals by providing structured mentorship, career guidance, personal branding support, mindset growth initiatives, and entrepreneurship insights. Since 2019, I have guided several cohorts in developing business plans and viable business ideas that meet professional and national standards (KNEC).</p>
+                <p><a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:underline">Sky My Limit</a> was born out of my passion to empower young people and professionals by providing structured mentorship, career guidance, personal branding support, mindset growth initiatives, and entrepreneurship insights. Since 2019, I have guided several cohorts in developing business plans and viable business ideas that meet professional and national standards (KNEC).</p>
 
                 <p>I am skilled in developing schemes of work, lesson plans, and records of work, ensuring all my training and mentorship sessions are structured, resourceful, and impactful.</p>
 
@@ -149,10 +149,10 @@ const About = () => {
               <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
                 <div className="flex items-center mb-4">
                   <Users className="w-7 h-7 text-white mr-3" />
-                  <h3 className="text-2xl font-bold text-white">Sky My Limit</h3>
+                  <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold text-white hover:underline">Sky My Limit</a>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                  I founded Sky My Limit out of my passion to nurture potential from early development to professional growth. Through its pillars — Junior Minds Book Club, Career Opportunities & Guidance, Personal Branding Optimization, Mindset Growth, and entrepreneurship support including business planning guidance — I equip learners, students, and professionals with tools, mentorship, and clarity for intentional success.
+                  I founded <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:underline">Sky My Limit</a> out of my passion to nurture potential from early development to professional growth. Through its pillars — Junior Minds Book Club, Career Opportunities & Guidance, Personal Branding Optimization, Mindset Growth, and entrepreneurship support including business planning guidance — I equip learners, students, and professionals with tools, mentorship, and clarity for intentional success.
                 </p>
               </div>
               <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
