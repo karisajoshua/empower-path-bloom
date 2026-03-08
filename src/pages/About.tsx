@@ -149,7 +149,7 @@ const About = () => {
               <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
                 <div className="flex items-center mb-4">
                   <Users className="w-7 h-7 text-white mr-3" />
-                  <h3 className="text-2xl font-bold text-white">Sky My Limit</h3>
+                  <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold text-white hover:underline">Sky My Limit</a>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
                   I founded Sky My Limit out of my passion to nurture potential from early development to professional growth. Through its pillars — Junior Minds Book Club, Career Opportunities & Guidance, Personal Branding Optimization, Mindset Growth, and entrepreneurship support including business planning guidance — I equip learners, students, and professionals with tools, mentorship, and clarity for intentional success.
