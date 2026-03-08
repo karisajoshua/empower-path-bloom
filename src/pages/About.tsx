@@ -152,7 +152,7 @@ const About = () => {
                   <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold text-white hover:underline">Sky My Limit</a>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                  I founded Sky My Limit out of my passion to nurture potential from early development to professional growth. Through its pillars — Junior Minds Book Club, Career Opportunities & Guidance, Personal Branding Optimization, Mindset Growth, and entrepreneurship support including business planning guidance — I equip learners, students, and professionals with tools, mentorship, and clarity for intentional success.
+                  I founded <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:underline">Sky My Limit</a> out of my passion to nurture potential from early development to professional growth. Through its pillars — Junior Minds Book Club, Career Opportunities & Guidance, Personal Branding Optimization, Mindset Growth, and entrepreneurship support including business planning guidance — I equip learners, students, and professionals with tools, mentorship, and clarity for intentional success.
                 </p>
               </div>
               <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
