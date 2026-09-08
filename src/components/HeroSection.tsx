@@ -10,27 +10,29 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
-            <p className="text-sm uppercase tracking-widest text-gray-400">Career & Personal Development Advocate | Author | Founder</p>
+            <p className="text-sm uppercase tracking-widest text-gray-400">Career &amp; Personal Development Advocate | Creator of the DDD Framework | Author | Speaker | MC</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white">
-              I am <span className="text-white">Caroline Kitumbui</span>
+              Discover. Develop. Deploy.
             </h1>
             <p className="text-xl text-gray-300 md:max-w-xl leading-relaxed">
-              I empower growth, cultivate potential, and help people build purpose.
+              Unlock Your Potential. Build Your Capacity. Create Meaningful Impact.
             </p>
-            <p className="text-gray-400 md:max-w-xl leading-relaxed">
-              Passionate about nurturing potential and guiding individuals to grow intentionally through career development, personal growth, structured mentorship, and entrepreneurship.
-            </p>
+            <div className="space-y-4 text-gray-400 md:max-w-xl leading-relaxed">
+              <p>I believe every individual has potential. But potential does not automatically become growth, excellence, or impact. It must be discovered, intentionally developed, and confidently deployed.</p>
+              <p>Through the DDD Framework — Discover. Develop. Deploy — I help growth-minded individuals gain clarity about who they are, develop the capabilities they need, and turn their potential into meaningful action and impact.</p>
+              <p className="text-white font-medium">Discover your potential. Develop your abilities. Deploy your impact.</p>
+            </div>
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a href="https://wa.me/254716668668" target="_blank" rel="noopener noreferrer" className="bg-white text-black font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 hover:bg-gray-200">
+              <Link to="/services" className="bg-white text-black font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 hover:bg-gray-200">
+                Explore the DDD Growth Cycle
+                <ArrowRight size={18} />
+              </Link>
+              <a href="https://wa.me/254716668668" target="_blank" rel="noopener noreferrer" className="bg-transparent hover:bg-white/10 text-white border border-white/30 font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2">
                 <MessageCircle size={18} />
                 Chat on WhatsApp
               </a>
-              <Link to="/contact" className="bg-transparent hover:bg-white/10 text-white border border-white/30 font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2">
+              <Link to="/contact" className="bg-transparent hover:bg-white/10 text-white border border-white/30 font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center">
                 Book a Session
-                <ArrowRight size={18} />
-              </Link>
-              <Link to="/contact" className="bg-transparent hover:bg-white/10 text-white border border-white/30 font-medium px-8 py-3 rounded-full transition-all duration-300">
-                Partner With Me
               </Link>
             </div>
           </div>
