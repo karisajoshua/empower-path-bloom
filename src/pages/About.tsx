@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 
 const About = () => {
   const coreValues = [
-    { icon: <Target className="w-7 h-7 text-white" />, title: "Intentional Growth", description: "I believe growth must be deliberate and structured to produce measurable impact." },
-    { icon: <Award className="w-7 h-7 text-white" />, title: "Excellence", description: "I am committed to high standards in thinking, performance, and conduct." },
-    { icon: <Heart className="w-7 h-7 text-white" />, title: "Authenticity", description: "I strive to be genuine, honest, and true to myself in every engagement." },
-    { icon: <Shield className="w-7 h-7 text-white" />, title: "Integrity", description: "I act with accountability and ethical leadership in all interactions." },
-    { icon: <Sparkles className="w-7 h-7 text-white" />, title: "Empowerment Through Structure", description: "I know transformation happens when guidance is clear, practical, and actionable." },
+    { icon: <Target className="w-7 h-7 text-white" />, title: "Intentional Growth", description: "Growth should be deliberate, reflective, and purposeful." },
+    { icon: <Award className="w-7 h-7 text-white" />, title: "Excellence", description: "I believe in pursuing high standards in thinking, performance, and conduct." },
+    { icon: <Heart className="w-7 h-7 text-white" />, title: "Authenticity", description: "Meaningful growth begins with being honest about who you are and where you are." },
+    { icon: <Shield className="w-7 h-7 text-white" />, title: "Integrity", description: "I value accountability, responsibility, and ethical conduct." },
+    { icon: <Sparkles className="w-7 h-7 text-white" />, title: "Empowerment Through Structure", description: "People are more likely to transform when guidance is clear, practical, and actionable." },
   ];
 
   const personalInterests = [
@@ -31,9 +31,9 @@ const About = () => {
         <section className="py-16 border-b border-white/10">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Caroline Kitumbui</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Who is Caroline Kitumbui?</h1>
               <p className="text-xl text-gray-300 leading-relaxed">
-                Career & Personal Development Advocate | Author | Founder | Growth & Entrepreneurship Enthusiast
+                Career &amp; Personal Development Advocate | Creator of the DDD Framework | Author | Speaker | MC
               </p>
             </div>
           </div>
@@ -42,14 +42,14 @@ const About = () => {
         {/* About Me */}
         <section className="py-20 border-b border-white/10">
             <div className="container mx-auto px-4 max-w-6xl">
-            <h2 className="text-3xl font-bold mb-8 text-white">About Me</h2>
+            <h2 className="text-3xl font-bold mb-8 text-white">My Story</h2>
             <div className="flex flex-col md:flex-row gap-10 items-stretch">
               {/* Image with dark blend */}
               <div className="relative w-full md:w-[420px] lg:w-[480px] flex-shrink-0 mx-auto md:mx-0">
                 <div className="relative overflow-hidden rounded-lg h-full">
                   <img
                     src={carolImage}
-                    alt="Caroline Kitumbui"
+                    alt="Caroline Kitumbui, Career and Personal Development Advocate"
                     className="w-full h-full object-cover"
                   />
                   {/* Gradient overlays for seamless dark blend */}
@@ -60,18 +60,31 @@ const About = () => {
               </div>
               {/* Text */}
               <div className="flex-1 space-y-5 text-gray-300 leading-relaxed">
-                <p>I am a career and personal development advocate, author, and community builder with a special interest in entrepreneurship. My experience in academia and program coordination has shaped my ability to design structured guidance, support young professionals, and cultivate purposeful growth.</p>
+                <p>I am a Career &amp; Personal Development Advocate, Creator of the DDD Framework, Author, Speaker, MC, and Community Builder passionate about helping people recognize their potential and grow intentionally.</p>
 
-                <p><a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:underline">Sky My Limit</a> was born out of my passion to empower young people and professionals by providing structured mentorship, career guidance, personal branding support, mindset growth initiatives, and entrepreneurship insights. Since 2019, I have guided several cohorts in developing business plans and viable business ideas that meet professional and national standards (KNEC).</p>
+                <p>My work sits at the intersection of personal growth, career development, human potential, and meaningful impact.</p>
 
-                <p>I am skilled in developing schemes of work, lesson plans, and records of work, ensuring all my training and mentorship sessions are structured, resourceful, and impactful.</p>
+                <p>My journey into this work began with <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:underline">Sky My Limit</a>, an initiative I founded to empower young people and professionals through career guidance, mentorship, personal branding, personal growth, and entrepreneurship support. Sky My Limit served that purpose from 2019 until July 2026.</p>
 
-                <p>As Book Club Officer at <strong className="text-white">SAV Skills Leaders Book Club</strong>, I promote reading, reflection, and intellectual engagement. I am also a published author, supporting aspiring writers in developing manuscripts, combining practical mentorship with thought leadership.</p>
+                <p>Over time, my work evolved. From the experiences, lessons, conversations, books, training, mentorship, and people I encountered, a clearer philosophy emerged: the work was ultimately about human potential.</p>
 
-                <p>I am also the Founder of <strong className="text-white">Carol's Book Bar</strong>, born out of my desire to cultivate a reading culture, bring resources closer to people, and help them understand the transformative benefits of reading. Through this initiative, I curate and sell self-help, leadership, and children's books, provide reading recommendations, and foster intentional engagement with literature as a tool for personal and professional growth.</p>
+                <p>This led to the birth of the <strong className="text-white">DDD Framework</strong> in July 2026, officially launching on 2 October 2026.</p>
 
-                <p className="italic text-gray-400">Everything I do is grounded in authenticity, intentional growth, and empowerment through structure.</p>
+                <p>Today, my work is focused on helping people discover who they are, develop their capacity, and deploy their fullest potential to create meaningful impact.</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* My Belief */}
+        <section className="py-20 border-b border-white/10">
+          <div className="container mx-auto px-4 max-w-4xl text-center">
+            <p className="text-sm uppercase tracking-widest text-gray-400 mb-4">My Belief</p>
+            <h2 className="text-3xl font-bold mb-8 text-white">Every Person Has Potential.</h2>
+            <div className="space-y-5 text-gray-300 leading-relaxed">
+              <p>Potential is universal. But potential is only the beginning.</p>
+              <p>It must be discovered, intentionally developed, and deployed to create meaningful impact.</p>
+              <p>I believe people can grow, reinvent themselves, pursue new possibilities, and make meaningful contributions throughout their lives.</p>
             </div>
           </div>
         </section>
@@ -83,13 +96,13 @@ const About = () => {
               <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4 text-white">My Mission</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  To empower individuals to grow intentionally by cultivating confidence, clarity of purpose, practical skills, and entrepreneurial insight, while helping young professionals and students navigate academic, career, and personal development challenges successfully.
+                  To advance the understanding and practice of human potential by helping individuals discover who they are, develop their capacity, and deploy their potential to create meaningful impact.
                 </p>
               </div>
               <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4 text-white">My Vision</h3>
                 <p className="text-gray-300 leading-relaxed">
-                  To be a transformative leader in youth development, career empowerment, and personal growth — helping individuals live boldly, think critically, and pursue excellence with purpose.
+                  A world where more people recognize their potential, intentionally develop their capacity, and use what they have to create value and meaningful impact.
                 </p>
               </div>
             </div>
@@ -142,7 +155,7 @@ const About = () => {
           </div>
         </section>
 
-        {/* Sky My Limit & Book Bar */}
+        {/* Sky My Limit history & reading advocacy */}
         <section className="py-20 border-b border-white/10">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -152,17 +165,18 @@ const About = () => {
                   <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold text-white hover:underline">Sky My Limit</a>
                 </div>
                 <p className="text-gray-300 leading-relaxed">
-                  I founded <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:underline">Sky My Limit</a> out of my passion to nurture potential from early development to professional growth. Through its pillars — Junior Minds Book Club, Career Opportunities & Guidance, Personal Branding Optimization, Mindset Growth, and entrepreneurship support including business planning guidance — I equip learners, students, and professionals with tools, mentorship, and clarity for intentional success.
+                  From 2019 until July 2026, <a href="https://www.skymylimit.co.ke/" target="_blank" rel="noopener noreferrer" className="text-white font-bold hover:underline">Sky My Limit</a> empowered young people and professionals through career guidance, mentorship, personal branding, personal growth, and entrepreneurship support. Its lessons shaped the philosophy that became the DDD Framework.
                 </p>
               </div>
               <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
                 <div className="flex items-center mb-4">
                   <BookOpen className="w-7 h-7 text-white mr-3" />
-                  <h3 className="text-2xl font-bold text-white">Growth & Reading Advocacy</h3>
+                  <h3 className="text-2xl font-bold text-white">Reading &amp; Book Advocacy</h3>
                 </div>
                 <p className="text-gray-300 leading-relaxed mb-4">
-                  Reading is a discipline, not a hobby. As Book Club Officer at SAV Skills Leaders Book Club, I promote critical reflection, structured discussion, and application of ideas. I also guide individuals exploring entrepreneurial opportunities, helping them turn skills into ventures and develop viable business ideas and plans.
+                  Reading is a discipline, not a hobby. I promote critical reflection, structured discussion, and the application of ideas — and through <strong className="text-white">Carol's Book Bar</strong> I curate self-help, leadership, and children's books and share reading recommendations.
                 </p>
+                <Link to="/books" className="text-white font-medium hover:underline">See my books →</Link>
               </div>
             </div>
           </div>
