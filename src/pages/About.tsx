@@ -182,11 +182,11 @@ const About = () => {
           </div>
         </section>
 
-        {/* Personal Interests & Fun Fact */}
+        {/* Personal Interests */}
         <section className="py-20 border-b border-white/10">
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-3xl font-bold mb-8 text-white">Personal Interests</h2>
-            <ul className="space-y-3 mb-12">
+            <ul className="space-y-3">
               {personalInterests.map((interest, index) => (
                 <li key={index} className="flex items-start text-gray-300">
                   <span className="text-white mr-3">•</span>
@@ -195,14 +195,7 @@ const About = () => {
               ))}
             </ul>
 
-            <div className="bg-white/5 border border-white/10 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold mb-4 text-white">Fun Fact</h3>
-              <ul className="space-y-3 text-gray-300 leading-relaxed">
-                <li className="flex items-start"><span className="text-white mr-3">•</span>I am an opportunistic entrepreneur 😄 — I love spotting opportunities and turning ideas into reality.</li>
-                <li className="flex items-start"><span className="text-white mr-3">•</span>I am lovey-dovey 😅 — a little tip to my future husband 😉</li>
-                <li className="flex items-start"><span className="text-white mr-3">•</span>What I don't like doing… that's reserved for my future husband 😄</li>
-              </ul>
-            </div>
+
           </div>
         </section>
 
