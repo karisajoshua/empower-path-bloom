@@ -68,7 +68,7 @@ const About = () => {
 
                 <p>Over time, my work evolved. From the experiences, lessons, conversations, books, training, mentorship, and people I encountered, a clearer philosophy emerged: the work was ultimately about human potential.</p>
 
-                <p>This led to the birth of the <strong className="text-white">DDD Framework</strong> in July 2026, officially launching on 2 October 2026.</p>
+                <p>This led to the birth of the <strong className="text-white">DDD Framework</strong> in July 2026, which officially launched on 2 October 2026.</p>
 
                 <p>Today, my work is focused on helping people discover who they are, develop their capacity, and deploy their fullest potential to create meaningful impact.</p>
               </div>
@@ -134,21 +134,21 @@ const About = () => {
                 <GraduationCap className="w-6 h-6 text-white mt-1" />
                 <div>
                   <h4 className="font-semibold text-white">MBA in Strategic Management</h4>
-                  <p className="text-gray-400 text-sm">Ongoing</p>
+                  
                 </div>
               </div>
               <div className="flex items-start gap-4 bg-white/5 border border-white/10 p-5 rounded-lg">
                 <GraduationCap className="w-6 h-6 text-white mt-1" />
                 <div>
                   <h4 className="font-semibold text-white">Bachelor's Degree in Business Management</h4>
-                  <p className="text-gray-400 text-sm">Moi University</p>
+                  
                 </div>
               </div>
               <div className="flex items-start gap-4 bg-white/5 border border-white/10 p-5 rounded-lg">
                 <GraduationCap className="w-6 h-6 text-white mt-1" />
                 <div>
                   <h4 className="font-semibold text-white">Background in Hospitality</h4>
-                  <p className="text-gray-400 text-sm">Alumnus of Moi University</p>
+                  
                 </div>
               </div>
             </div>
