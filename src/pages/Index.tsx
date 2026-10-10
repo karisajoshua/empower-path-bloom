@@ -14,7 +14,7 @@ const Index = () => {
     },
     {
       title: "What I Offer",
-      description: "The DDD Framework in action — the four-week DDD Growth Cycle, DDD Circle, coaching, training, speaking, and MC.",
+      description: "DDD Masterclass & Mentorship — discover your strengths, develop your capacity, deploy your potential, and receive guided support to take consistent action.",
       link: "/services"
     },
     {
@@ -24,7 +24,7 @@ const Index = () => {
     },
     {
       title: "Contact",
-      description: "Ready to discover, develop, and deploy your potential? Let's connect and grow together.",
+      description: "Ready to discover, develop, and deploy your potential with purpose? Let's connect.",
       link: "/contact"
     }
   ];
