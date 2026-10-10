@@ -20,6 +20,9 @@ const Footer = () => {
               Empowering individuals to grow intentionally through career development, personal growth, and structured mentorship.
             </p>
             <div className="flex space-x-4">
+              <a href="https://www.linkedin.com/in/caroline-kitumbui-653bb5319" target="_blank" rel="noopener noreferrer" aria-label="Caroline Kitumbui on LinkedIn" className="text-gray-400 hover:text-white transition-colors">
+                <Linkedin size={20} />
+              </a>
               <a href="https://www.youtube.com/@carolk3596" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                 <Youtube size={20} />
               </a>
