@@ -6,9 +6,7 @@ import { Link } from 'react-router-dom';
 const Books = () => {
   const books = [
     { title: "The Path to Personal Excellence", description: "A guide to pursuing high standards in thinking, performance, and conduct." },
-    { title: "Steps to a Better You", description: "Practical steps for intentional, reflective personal growth." },
     { title: "The Path to Reinvention", description: "On reinventing yourself and pursuing new possibilities." },
-    { title: "Transforming Your Career Narrative", description: "Reshaping the story of your career with clarity and purpose." },
   ];
 
   return (
