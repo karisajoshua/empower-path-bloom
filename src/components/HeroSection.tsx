@@ -24,7 +24,7 @@ const HeroSection = () => {
             </div>
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link to="/services" className="bg-white text-black font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 hover:bg-gray-200">
-                Explore the DDD Growth Cycle
+                Explore DDD Masterclass & Mentorship
                 <ArrowRight size={18} />
               </Link>
               <a href="https://wa.me/254716668668" target="_blank" rel="noopener noreferrer" className="bg-transparent hover:bg-white/10 text-white border border-white/30 font-medium px-8 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2">
